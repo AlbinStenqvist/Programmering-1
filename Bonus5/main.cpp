@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	
-	int tal1, tal2, tusen;
+	int tal1, tal2;
 	
 	tal1 = 10001;
 	

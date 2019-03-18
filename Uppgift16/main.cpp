@@ -6,17 +6,22 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	
-	int tal1, min, hopp;
+	int botten, hopp, tal;
 	
-	for (int )
+	while ( tal < 10 or tal > 20) {
+		
+		cout << "Ange ett tal mellan 10 och 20: ";
+		cin >> tal;
+		
+	}
 	
-	cout << "Ange talet som det ska räknas ner till: ";
-	cin >> min;
+	cout << "Ange bottenvärdet: ";
+	cin >> botten;
 	
-	cout << "Ange mängden tal som ska hoppas över för varje steg: ";
+	cout << "Ange hur många tal som hoppas över: ";
 	cin >> hopp;
 	
-	for (int i = tal1; i > min; i = i - hopp) {
+	for (int i = tal; i > botten; i = i - hopp) {
 		
 		cout << i << endl;
 		
